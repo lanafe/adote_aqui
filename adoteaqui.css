@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+    display: flex;
+}
+
+.nome {
+    background: yellow;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.informacoes {
+    background: black;
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+p a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:grey;
+}
+.flex {
+    display: flex;
+    box-sizing: border-box;
+}
+
+@media(max-width: 700px) {
+    .nome {
+      display: none;
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.nome:hover {
+    font-size: 40px;
+}
+
+body {
+    background: grey;
+}
+
+.bichinhos {
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 40px 50px 40px 80px;
+}
+
+@media(max-width: 700px) {
+    .imagens {
+        flex-direction: column;
+    }
+
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 30px;
+}
+
+.rodape {
+    background: yellow;
+    height: 50px;
+}
+
+.rodape p {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px 0 0 20px;
+}
